@@ -10,6 +10,8 @@
 #list {
     display: flex;
     flex-direction: column-reverse;
+    overflow: scroll;
+    max-height: 500px;
 }
 
 #list li:nth-child(2n) {
